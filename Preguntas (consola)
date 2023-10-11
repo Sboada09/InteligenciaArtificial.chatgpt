@@ -1,0 +1,174 @@
+package preguntas;
+
+import java.util.Scanner;
+
+public class Preguntas {
+    
+    public static void main(String[] args) {
+        
+        Scanner scanner = new Scanner(System.in);
+        String cadena;
+        
+    do {
+       
+        System.out.println("Ingrese una pregunta:");
+        
+        cadena = scanner.nextLine();
+        
+        if (cadena.contains("que")&& cadena.contains("es")&& cadena.contains("pila")&& cadena.contains("estructura")&& cadena.contains("datos")) { //1
+            System.out.println("Una pila es una estructura de datos lineal que sigue el principio LIFO (ultimo en entrar, primero en salir).");
+        } else {
+        
+            if (cadena.contains("como")&& cadena.contains("funciona")&& cadena.contains("cual")&& cadena.contains("funcionamiento")&& cadena.contains("pila")) { //2
+            System.out.println("Una pila almacena elementos de manera secuencial, permitiendo operaciones en un extremo llamado “cima”.");
+            } else {
+                
+                if (cadena.contains("que")&& cadena.contains("operaciones")&& cadena.contains("pila")&& cadena.contains("puede")&& cadena.contains("realizar")){ //3
+                System.out.println("Las operaciones principales en una pila son “push” (insertar) y “pop” (eliminar).");
+                } else {
+                    
+                    if (cadena.contains("que")&& cadena.contains("es")&& cadena.contains("operacion")&& cadena.contains("push")&& cadena.contains("pila")){ //4
+                    System.out.println("“Push” es la operacion de agregar un elemento a la cima de la pila.");
+                    } else {
+                        
+                        if (cadena.contains("que")&& cadena.contains("es")&& cadena.contains("operacion")&& cadena.contains("pop")&& cadena.contains("pila")){ //5
+                        System.out.println("“Pop” es la operacion de eliminar el elemento superior de la pila.");
+                        } else{
+                            
+                            if (cadena.contains("que")&& cadena.contains("es")&& cadena.contains("cola")&& cadena.contains("estructura")&& cadena.contains("datos")){ //6
+                            System.out.println("Una cola es una estructura de datos lineal que sigue el principio FIFO (primero en entrar, primero en salir).");
+                            } else {
+                                
+                                if (cadena.contains("como")&& cadena.contains("funciona")&& cadena.contains("cola")){ //7
+                                System.out.println("Una cola almacena elementos secuencialmente, permitiendo operaciones en ambos extremos.");
+                                } else {
+                                    
+                                    if (cadena.contains("que")&& cadena.contains("operaciones")&& cadena.contains("realizar")&& cadena.contains("cola")){ //8
+                                    System.out.println("Las operaciones principales en una cola son “enqueue” (encolar) y “dequeue” (desencolar).");
+                                    } else {
+                                        
+                                        if (cadena.contains("que")&& cadena.contains("es")&& cadena.contains("operacion")&& cadena.contains("enqueue")&& cadena.contains("cola")){ //9
+                                        System.out.println("“Enqueue” es la operacion de agregar un elemento al final de la cola.");
+                                        } else {
+                                            
+                                            if (cadena.contains("que")&& cadena.contains("es")&& cadena.contains("operacion")&& cadena.contains("dequeue")&& cadena.contains("cola")){ //10
+                                            System.out.println("“Dequeue” es la operacion de eliminar el elemento del frente de la cola.");
+                                            } else{
+                                                
+                                                if (cadena.contains("que")&& cadena.contains("diferencia")&& cadena.contains("entre")&& cadena.contains("pila")&& cadena.contains("cola")){ //11
+                                                System.out.println("La diferencia principal entre una pila y una cola radica en el orden de los elementos eliminados: LIFO para pilas y FIFO para colas.");
+                                                } else {
+                                                    
+                                                    if (cadena.contains("que")&& cadena.contains("es")&& cadena.contains("cual")&& cadena.contains("definicion")&& cadena.contains("estructura")&& cadena.contains("datos")){ //12
+                                                    System.out.println("Una estructura de datos es una forma particular de organizar datos en una computadora para que puedan ser utilizados eficientemente.");
+                                                    } else {
+                                                        
+                                                        if (cadena.contains("importancia")&& cadena.contains("estructura")&& cadena.contains("datos")){ //13
+                                                        System.out.println("Las estructuras de datos son importantes porque permiten manejar grandes cantidades de datos de manera eficiente.);
+                                                        } else {
+                                                            
+                                                            if (cadena.contains("cuales")&& cadena.contains("tipos")&& cadena.contains("estructura")&& cadena.contains("datos")){ //14
+                                                            System.out.println("Los tipos comunes de estructuras de datos incluyen arreglos, listas enlazadas, pilas, colas, arboles y grafos.");
+                                                            } else {
+                                                                
+                                                                if (cadena.contains("que")&& cadena.contains("es")&& cadena.contains("array")&& cadena.contains("arreglo")&& cadena.contains("estructura")&& cadena.contains("arreglo")){ //15
+                                                                System.out.println("Un arreglo es una estructura de datos que contiene un grupo de elementos del mismo tipo.");
+                                                                } else {
+                                                                    
+                                                                    if (cadena.contains("como")&& cadena.contains("acceder")&& cadena.contains("elementos")&& cadena.contains("arreglo")){ //16
+                                                                    System.out.println("Los elementos en un arreglo se acceden por su indice numerico.");
+                                                                    } else {
+                                                                        
+                                                                        if (cadena.contains("que")&& cadena.contains("es")&& cadena.contains("arbol")&& cadena.contains("binario")&& cadena.contains("estructura")&& cadena.contains("datos")){ //17
+                                                                        System.out.println(Un arbol binario es una estructura de datos no lineal con un nodo raiz y dos subarboles, generalmente llamados subarbol izquierdo y subarbol derecho.");
+                                                                        } else {
+                                                                            
+                                                                            if (cadena.contains("cual")&& cadena.contains("es")&& cadena.contains("recorrido")&& cadena.contains("arbol")&& cadena.contains("binario")){ //18
+                                                                            System.out.println("Un arbol binario se recorre generalmente en preorden, inorden o postorden.");
+                                                                            } else {
+                                                                                
+                                                                                if (cadena.contains("que")&& cadena.contains("es")&& cadena.contains("grafo")&& cadena.contains("estructura")&& cadena.contains("datos")){ //19
+                                                                                System.out.println("Un grafo es una estructura no lineal que consta de nodos y aristas.");
+                                                                                } else {
+                                                                                    
+                                                                                    if (cadena.contains("como")&& cadena.contains("representar")&& cadena.contains("grafo")&& cadena.contains("memoria")){ //20
+                                                                                    System.out.println("Un grafo se representa comunmente en memoria usando listas de adyacencia o matrices de adyacencia..");
+                                                                                    } else {
+                                                                                        
+                                                                                        if (cadena.contains("que")&& cadena.contains("es")&& cadena.contains("nodo")&& cadena.contains("estructura")&& cadena.contains("datos")){ //21
+                                                                                        System.out.println("Un nodo es un elemento individual en una estructura de datos como un arbol o grafo.");
+                                                                                        } else {
+                                                                                            
+                                                                                            if (cadena.contains("que")&& cadena.contains("es")&& cadena.contains("puntero")&& cadena.contains("estructura")&& cadena.contains("datos")){//22
+                                                                                            System.out.println("Un puntero es una variable que almacena la direccion de otra variable en estructuras de datos.");
+                                                                                            } else {
+                                                                                                
+                                                                                                if (cadena.contains("como")&& cadena.contains("utilizar")&& cadena.contains("puntero")&& cadena.contains("pila")&& cadena.contains("cola")){ //23
+                                                                                                System.out.println("En pilas y colas, los punteros se utilizan para apuntar al siguiente nodo en la estructura.");
+                                                                                                } else {
+                                                                                                    
+                                                                                                    if (cadena.contains("que")&& cadena.contains("es")&& cadena.contains("complejidad")&& cadena.contains("tiempo")&& cadena.contains("operaciones")&& cadena.contains("estructura")&& cadena.contains("datos")){ //24
+                                                                                                    System.out.println("La complejidad del tiempo se refiere a la cantidad computacional necesaria para ejecutar una operacion en una estructura de datos.");
+                                                                                                    } else {
+                                                                                                        
+                                                                                                        if (cadena.contains("como")&& cadena.contains("afectar")&& cadena.contains("tamaño")&& cadena.contains("estructura")&& cadena.contains("datos")&& cadena.contains("complejidad")&& cadena.contains("tiempo")){ //25
+                                                                                                        System.out.println("El tamaño de la estructura de datos puede afectar la complejidad del tiempo ya que mas datos pueden requerir mas tiempo para procesarse.");
+                                                                                                        } else {
+                                                                                                            
+                                                                                                            if (cadena.contains("que")&& cadena.contains("es")&& cadena.contains("memoria")&& cadena.contains("dinamica")&& cadena.contains("estructura")&& cadena.contains("datos")){ //26
+                                                                                                            System.out.println("La memoria dinamica se refiere a asignar o liberar memoria durante el tiempo de ejecucion del programa.");
+                                                                                                            } else {
+                                                                                                                
+                                                                                                                if (cadena.contains("como")&& cadena.contains("liberar")&& cadena.contains("memoria")&& cadena.contains("pila")&& cadena.contains("cola")){ //27
+                                                                                                                    System.out.println("Despues de usar una pila o cola, la memoria se libera utilizando operaciones especificas para evitar fugas de memoria.");
+                                                                                                                } else {
+                                                                                                                    
+                                                                                                                    if (cadena.contains("cuando")&& cadena.contains("preferir")&& cadena.contains("uso")&& cadena.contains("pila")&& cadena.contains("sobre")&& cadena.contains("cola")){ //28
+                                                                                                                    System.out.println("Se prefiere usar una pila cuando necesitamos acceso LIFO a los elementos, y una cola cuando necesitamos acceso FIFO.");
+                                                                                                                    } else {
+                                                                                                                        
+                                                                                                                        if (cadena.contains("como")&& cadena.contains("implementar")&& cadena.contains("pila")&& cadena.contains("usando")&& cadena.contains("arreglo")){ //29
+                                                                                                                        System.out.println("Una pila se puede implementar usando un arreglo manteniendo un indice al elemento superior.");
+                                                                                                                        } else {
+                                                                                                                            
+                                                                                                                            if ((cadena.contains("como")&& cadena.contains("implementar")&& cadena.contains("cola")&& cadena.contains("usando")&& cadena.contains("arreglo")){ //30
+                                                                                                                            System.out.println("Una cola se puede implementar usando un arreglo manteniendo dos indices para el frente y el final.");
+                                                                                                                            }
+                                                                                                                            else
+                                                                                                                            {
+                                                                                                                                if (cadena.contains(" ")){
+                                                                                                                                    System.out.println("No se reconoce la pregunta");
+                                                                                                                                }
+                                                                                                                            }
+                                                                                                                        }
+                                                                                                                    }
+                                                                                                                }
+                                                                                                            }
+                                                                                                        }
+                                                                                                    }
+                                                                                                }
+                                                                                            }
+                                                                                        }
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }   
+                        }   
+                    } 
+                }
+            }
+        }
+        } while (!cadena.equalsIgnoreCase("salir"));   
+    }
+}
